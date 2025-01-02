@@ -656,6 +656,19 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "Spruceplanksr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruceplanksr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/spruceplanksr.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -732,7 +745,7 @@
     "modName": "blocks of illusion",
     "version": "0.0.1",
     "author": "Ian1337",
-    "websiteURL": "dc.paul2craft.de",
+    "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
     "modPicture": "logo_for_minecraft_mod_named_blocks_of_illusion",
