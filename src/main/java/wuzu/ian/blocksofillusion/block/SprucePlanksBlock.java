@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class SprucePlanksBlock extends Block {
 	public SprucePlanksBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(1f, 10f).noCollission());
 	}
 
 	@Override

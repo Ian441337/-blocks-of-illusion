@@ -21,12 +21,12 @@ public class BlocksOfIllusionModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.blocks_of_illusion.blocksofillusion")).icon(() -> new ItemStack(Items.ENDER_EYE)).displayItems((parameters, tabData) -> {
 				tabData.accept(BlocksOfIllusionModBlocks.STONE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.COBBLESTONE.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.ANDESITE.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.POLISHED_ANDESITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.GRANITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.POLISHED_GRANITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.DIORITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.POLISHED_DIORITE.get().asItem());
-				tabData.accept(BlocksOfIllusionModBlocks.ANDESITE.get().asItem());
-				tabData.accept(BlocksOfIllusionModBlocks.POLISHED_ANDESITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.DIRT.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.COARSE_DIRT.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.PODZOL.get().asItem());
