@@ -369,6 +369,40 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "OakLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/models/item/oak_log.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/oak_log.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/OakLogBlock.java",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/oak_log.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/oak_log.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "OakWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/models/block/oak_wood.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/oak_wood.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/oak_wood.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/OakWoodBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/item/oak_wood.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -387,7 +421,9 @@
       "Dirt",
       "CoarseDirt",
       "Podzol",
-      "Sand"
+      "Sand",
+      "OakLog",
+      "OakWood"
     ]
   },
   "language_map": {
@@ -398,9 +434,11 @@
       "block.blocks_of_illusion.podzol": "Podzol",
       "block.blocks_of_illusion.dirt": "Dirt",
       "block.blocks_of_illusion.stone": "Stone",
+      "block.blocks_of_illusion.oak_log": "Oak Log",
       "block.blocks_of_illusion.cobblestone": "Cobblestone",
       "block.blocks_of_illusion.coarse_dirt": "Coarse Dirt",
       "block.blocks_of_illusion.polished_diorite": "Polished Diorite",
+      "block.blocks_of_illusion.oak_wood": "Oak Wood",
       "block.blocks_of_illusion.sand": "Sand",
       "block.blocks_of_illusion.polished_andesite": "Polished Andesite",
       "block.blocks_of_illusion.granite": "Granite",

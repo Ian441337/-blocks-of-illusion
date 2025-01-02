@@ -31,5 +31,7 @@ public class BlocksOfIllusionModTabs {
 				tabData.accept(BlocksOfIllusionModBlocks.COARSE_DIRT.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.PODZOL.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.SAND.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.OAK_LOG.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.OAK_WOOD.get().asItem());
 			}).withSearchBar().build());
 }
