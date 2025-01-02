@@ -196,6 +196,71 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "DirtR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/dirt_r.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "StoneR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/stone_r.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "GraniteR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/granite_r.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "PolishedgraniteR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishedgranite_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/polishedgranite_r.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "DioriteR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/diorite_r.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -237,6 +302,10 @@
     "children": [
       {
         "name": "blocks",
+        "children": []
+      },
+      {
+        "name": "recepi",
         "children": []
       }
     ]
