@@ -4,9 +4,12 @@
  */
 package wuzu.ian.blocksofillusion.init;
 
+import wuzu.ian.blocksofillusion.block.StrippedSpruceLogBlock;
 import wuzu.ian.blocksofillusion.block.StrippedOakWoodBlock;
 import wuzu.ian.blocksofillusion.block.StrippedOakLogBlock;
 import wuzu.ian.blocksofillusion.block.StoneBlock;
+import wuzu.ian.blocksofillusion.block.SpruceWoodBlock;
+import wuzu.ian.blocksofillusion.block.SpruceLogBlock;
 import wuzu.ian.blocksofillusion.block.SandBlock;
 import wuzu.ian.blocksofillusion.block.PolishedGraniteBlock;
 import wuzu.ian.blocksofillusion.block.PolishedDioriteBlock;
@@ -48,6 +51,9 @@ public class BlocksOfIllusionModBlocks {
 	public static final RegistryObject<Block> STRIPPED_OAK_LOG = REGISTRY.register("stripped_oak_log", () -> new StrippedOakLogBlock());
 	public static final RegistryObject<Block> STRIPPED_OAK_WOOD = REGISTRY.register("stripped_oak_wood", () -> new StrippedOakWoodBlock());
 	public static final RegistryObject<Block> OAK_PLANKS = REGISTRY.register("oak_planks", () -> new OakPlanksBlock());
+	public static final RegistryObject<Block> SPRUCE_LOG = REGISTRY.register("spruce_log", () -> new SpruceLogBlock());
+	public static final RegistryObject<Block> SPRUCE_WOOD = REGISTRY.register("spruce_wood", () -> new SpruceWoodBlock());
+	public static final RegistryObject<Block> STRIPPED_SPRUCE_LOG = REGISTRY.register("stripped_spruce_log", () -> new StrippedSpruceLogBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -519,6 +519,57 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "SpruceLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_log",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/blocksofillusion/block/SpruceLogBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/block/spruce_log.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/spruce_log.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/spruce_log.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/spruce_log.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "SpruceWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spruce_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/blocksofillusion/block/SpruceWoodBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/block/spruce_wood.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/spruce_wood.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/spruce_wood.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/spruce_wood.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "StrippedSpruceLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_spruce_log",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/blocksofillusion/block/StrippedSpruceLogBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/item/stripped_spruce_log.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/stripped_spruce_log.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/stripped_spruce_log.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/stripped_spruce_log.json"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
@@ -542,14 +593,19 @@
       "OakWood",
       "StrippedOakLog",
       "StrippedOakWood",
-      "OakPlanks"
+      "OakPlanks",
+      "SpruceLog",
+      "SpruceWood",
+      "StrippedSpruceLog"
     ]
   },
   "language_map": {
     "en_us": {
       "block.blocks_of_illusion.stripped_oak_wood": "Stripped Oak Wood",
       "block.blocks_of_illusion.diorite": "Diorite",
+      "block.blocks_of_illusion.stripped_spruce_log": "Stripped Spruce Log",
       "block.blocks_of_illusion.stripped_oak_log": "Stripped Oak Log",
+      "block.blocks_of_illusion.spruce_log": "Spruce Log",
       "block.blocks_of_illusion.oak_planks": "Oak Planks",
       "item_group.blocks_of_illusion.blocksofillusion": "Blocks of illusion",
       "block.blocks_of_illusion.polished_granite": "Polished Granite",
@@ -563,6 +619,7 @@
       "block.blocks_of_illusion.oak_wood": "Oak Wood",
       "block.blocks_of_illusion.sand": "Sand",
       "block.blocks_of_illusion.polished_andesite": "Polished Andesite",
+      "block.blocks_of_illusion.spruce_wood": "Spruce Wood",
       "block.blocks_of_illusion.granite": "Granite",
       "block.blocks_of_illusion.andesite": "Andesite"
     }

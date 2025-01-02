@@ -36,5 +36,8 @@ public class BlocksOfIllusionModTabs {
 				tabData.accept(BlocksOfIllusionModBlocks.STRIPPED_OAK_LOG.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.STRIPPED_OAK_WOOD.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.OAK_PLANKS.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.SPRUCE_LOG.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.SPRUCE_WOOD.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.STRIPPED_SPRUCE_LOG.get().asItem());
 			}).withSearchBar().build());
 }

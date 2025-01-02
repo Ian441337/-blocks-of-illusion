@@ -1,7 +1,9 @@
 {
   "block.blocks_of_illusion.stripped_oak_wood": "Stripped Oak Wood",
   "block.blocks_of_illusion.diorite": "Diorite",
+  "block.blocks_of_illusion.stripped_spruce_log": "Stripped Spruce Log",
   "block.blocks_of_illusion.stripped_oak_log": "Stripped Oak Log",
+  "block.blocks_of_illusion.spruce_log": "Spruce Log",
   "block.blocks_of_illusion.oak_planks": "Oak Planks",
   "item_group.blocks_of_illusion.blocksofillusion": "Blocks of illusion",
   "block.blocks_of_illusion.polished_granite": "Polished Granite",
@@ -15,6 +17,7 @@
   "block.blocks_of_illusion.oak_wood": "Oak Wood",
   "block.blocks_of_illusion.sand": "Sand",
   "block.blocks_of_illusion.polished_andesite": "Polished Andesite",
+  "block.blocks_of_illusion.spruce_wood": "Spruce Wood",
   "block.blocks_of_illusion.granite": "Granite",
   "block.blocks_of_illusion.andesite": "Andesite"
 }

@@ -33,6 +33,9 @@ public class BlocksOfIllusionModItems {
 	public static final RegistryObject<Item> STRIPPED_OAK_LOG = block(BlocksOfIllusionModBlocks.STRIPPED_OAK_LOG);
 	public static final RegistryObject<Item> STRIPPED_OAK_WOOD = block(BlocksOfIllusionModBlocks.STRIPPED_OAK_WOOD);
 	public static final RegistryObject<Item> OAK_PLANKS = block(BlocksOfIllusionModBlocks.OAK_PLANKS);
+	public static final RegistryObject<Item> SPRUCE_LOG = block(BlocksOfIllusionModBlocks.SPRUCE_LOG);
+	public static final RegistryObject<Item> SPRUCE_WOOD = block(BlocksOfIllusionModBlocks.SPRUCE_WOOD);
+	public static final RegistryObject<Item> STRIPPED_SPRUCE_LOG = block(BlocksOfIllusionModBlocks.STRIPPED_SPRUCE_LOG);
 
 	// Start of user code block custom items
 	// End of user code block custom items

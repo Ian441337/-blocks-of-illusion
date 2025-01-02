@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:oak_log",
-    "textureTop": "minecraft:oak_log",
-    "textureLeft": "minecraft:oak_log",
-    "textureFront": "minecraft:oak_log",
-    "textureRight": "minecraft:oak_log",
-    "textureBack": "minecraft:oak_log",
+    "texture": "minecraft:stripped_spruce_log_top",
+    "textureTop": "minecraft:stripped_spruce_log_top",
+    "textureLeft": "minecraft:stripped_spruce_log",
+    "textureFront": "minecraft:stripped_spruce_log",
+    "textureRight": "minecraft:stripped_spruce_log",
+    "textureBack": "minecraft:stripped_spruce_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Oak Wood",
+    "name": "Stripped Spruce Log",
     "specialInformation": {
       "fixedValue": []
     },

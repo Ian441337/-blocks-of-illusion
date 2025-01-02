@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:oak_log",
-    "textureTop": "minecraft:oak_log",
-    "textureLeft": "minecraft:oak_log",
-    "textureFront": "minecraft:oak_log",
-    "textureRight": "minecraft:oak_log",
-    "textureBack": "minecraft:oak_log",
+    "texture": "minecraft:spruce_log",
+    "textureTop": "minecraft:spruce_log",
+    "textureLeft": "minecraft:spruce_log",
+    "textureFront": "minecraft:spruce_log",
+    "textureRight": "minecraft:spruce_log",
+    "textureBack": "minecraft:spruce_log",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Oak Wood",
+    "name": "Spruce Wood",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.ENDER_EYE"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

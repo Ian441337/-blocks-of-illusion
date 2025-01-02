@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/stripped_spruce_log_top",
+    "up": "minecraft:block/stripped_spruce_log_top",
+    "north": "minecraft:block/stripped_spruce_log",
+    "east": "minecraft:block/stripped_spruce_log",
+    "south": "minecraft:block/stripped_spruce_log",
+    "west": "minecraft:block/stripped_spruce_log",
+    "particle": "minecraft:block/stripped_spruce_log_top"
+  },
+  "render_type": "solid"
+}
