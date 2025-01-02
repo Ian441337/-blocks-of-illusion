@@ -9,6 +9,7 @@ import wuzu.ian.blocksofillusion.block.SandBlock;
 import wuzu.ian.blocksofillusion.block.PolishedGraniteBlock;
 import wuzu.ian.blocksofillusion.block.PolishedDioriteBlock;
 import wuzu.ian.blocksofillusion.block.PolishedAndesiteBlock;
+import wuzu.ian.blocksofillusion.block.PodzolBlock;
 import wuzu.ian.blocksofillusion.block.GraniteBlock;
 import wuzu.ian.blocksofillusion.block.DirtBlock;
 import wuzu.ian.blocksofillusion.block.DioriteBlock;
@@ -36,6 +37,7 @@ public class BlocksOfIllusionModBlocks {
 	public static final RegistryObject<Block> ANDESITE = REGISTRY.register("andesite", () -> new AndesiteBlock());
 	public static final RegistryObject<Block> POLISHED_ANDESITE = REGISTRY.register("polished_andesite", () -> new PolishedAndesiteBlock());
 	public static final RegistryObject<Block> COARSE_DIRT = REGISTRY.register("coarse_dirt", () -> new CoarseDirtBlock());
+	public static final RegistryObject<Block> PODZOL = REGISTRY.register("podzol", () -> new PodzolBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

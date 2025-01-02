@@ -261,6 +261,75 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "Podzol",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podzol",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/blocksofillusion/block/PodzolBlock.java",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/podzol.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/podzol.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/podzol.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/podzol.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Polisheddioriter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polisheddioriter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/polisheddioriter.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "Andesiter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesiter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/andesiter.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "Polishedandesiter",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishedandesiter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/polishedandesiter.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "Coarsedirtr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coarsedirtr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/coarsedirtr.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -278,6 +347,7 @@
       "PolishedAndesite",
       "Dirt",
       "CoarseDirt",
+      "Podzol",
       "Sand"
     ]
   },
@@ -286,6 +356,7 @@
       "block.blocks_of_illusion.diorite": "Diorite",
       "item_group.blocks_of_illusion.blocksofillusion": "Blocks of illusion",
       "block.blocks_of_illusion.polished_granite": "Polished Granite",
+      "block.blocks_of_illusion.podzol": "Podzol",
       "block.blocks_of_illusion.dirt": "Dirt",
       "block.blocks_of_illusion.stone": "Stone",
       "block.blocks_of_illusion.cobblestone": "Cobblestone",

@@ -27,6 +27,7 @@ public class BlocksOfIllusionModItems {
 	public static final RegistryObject<Item> ANDESITE = block(BlocksOfIllusionModBlocks.ANDESITE);
 	public static final RegistryObject<Item> POLISHED_ANDESITE = block(BlocksOfIllusionModBlocks.POLISHED_ANDESITE);
 	public static final RegistryObject<Item> COARSE_DIRT = block(BlocksOfIllusionModBlocks.COARSE_DIRT);
+	public static final RegistryObject<Item> PODZOL = block(BlocksOfIllusionModBlocks.PODZOL);
 
 	// Start of user code block custom items
 	// End of user code block custom items
