@@ -403,6 +403,122 @@
         ]
       },
       "path": "~/blocks"
+    },
+    {
+      "name": "StrippedOakLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/blockstates/stripped_oak_log.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/StrippedOakLogBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/block/stripped_oak_log.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/stripped_oak_log.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/stripped_oak_log.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "StrippedOakWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/blockstates/stripped_oak_wood.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/StrippedOakWoodBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/item/stripped_oak_wood.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/stripped_oak_wood.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/stripped_oak_wood.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "OakPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/oak_planks.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/OakPlanksBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/oak_planks.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/oak_planks.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/oak_planks.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "OakLogr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_logr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/oak_logr.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "OakWoodr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_woodr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/oak_woodr.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "StrippedOakLogr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_logr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/stripped_oak_logr.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "StrippedOakWoodr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_oak_woodr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/stripped_oak_woodr.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "OakPlanksr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_planksr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/oak_planksr.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
@@ -423,12 +539,18 @@
       "Podzol",
       "Sand",
       "OakLog",
-      "OakWood"
+      "OakWood",
+      "StrippedOakLog",
+      "StrippedOakWood",
+      "OakPlanks"
     ]
   },
   "language_map": {
     "en_us": {
+      "block.blocks_of_illusion.stripped_oak_wood": "Stripped Oak Wood",
       "block.blocks_of_illusion.diorite": "Diorite",
+      "block.blocks_of_illusion.stripped_oak_log": "Stripped Oak Log",
+      "block.blocks_of_illusion.oak_planks": "Oak Planks",
       "item_group.blocks_of_illusion.blocksofillusion": "Blocks of illusion",
       "block.blocks_of_illusion.polished_granite": "Polished Granite",
       "block.blocks_of_illusion.podzol": "Podzol",

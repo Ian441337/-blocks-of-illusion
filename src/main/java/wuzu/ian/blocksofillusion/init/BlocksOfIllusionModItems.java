@@ -30,6 +30,9 @@ public class BlocksOfIllusionModItems {
 	public static final RegistryObject<Item> PODZOL = block(BlocksOfIllusionModBlocks.PODZOL);
 	public static final RegistryObject<Item> OAK_LOG = block(BlocksOfIllusionModBlocks.OAK_LOG);
 	public static final RegistryObject<Item> OAK_WOOD = block(BlocksOfIllusionModBlocks.OAK_WOOD);
+	public static final RegistryObject<Item> STRIPPED_OAK_LOG = block(BlocksOfIllusionModBlocks.STRIPPED_OAK_LOG);
+	public static final RegistryObject<Item> STRIPPED_OAK_WOOD = block(BlocksOfIllusionModBlocks.STRIPPED_OAK_WOOD);
+	public static final RegistryObject<Item> OAK_PLANKS = block(BlocksOfIllusionModBlocks.OAK_PLANKS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

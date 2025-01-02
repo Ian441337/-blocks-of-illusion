@@ -4,6 +4,8 @@
  */
 package wuzu.ian.blocksofillusion.init;
 
+import wuzu.ian.blocksofillusion.block.StrippedOakWoodBlock;
+import wuzu.ian.blocksofillusion.block.StrippedOakLogBlock;
 import wuzu.ian.blocksofillusion.block.StoneBlock;
 import wuzu.ian.blocksofillusion.block.SandBlock;
 import wuzu.ian.blocksofillusion.block.PolishedGraniteBlock;
@@ -11,6 +13,7 @@ import wuzu.ian.blocksofillusion.block.PolishedDioriteBlock;
 import wuzu.ian.blocksofillusion.block.PolishedAndesiteBlock;
 import wuzu.ian.blocksofillusion.block.PodzolBlock;
 import wuzu.ian.blocksofillusion.block.OakWoodBlock;
+import wuzu.ian.blocksofillusion.block.OakPlanksBlock;
 import wuzu.ian.blocksofillusion.block.OakLogBlock;
 import wuzu.ian.blocksofillusion.block.GraniteBlock;
 import wuzu.ian.blocksofillusion.block.DirtBlock;
@@ -42,6 +45,9 @@ public class BlocksOfIllusionModBlocks {
 	public static final RegistryObject<Block> PODZOL = REGISTRY.register("podzol", () -> new PodzolBlock());
 	public static final RegistryObject<Block> OAK_LOG = REGISTRY.register("oak_log", () -> new OakLogBlock());
 	public static final RegistryObject<Block> OAK_WOOD = REGISTRY.register("oak_wood", () -> new OakWoodBlock());
+	public static final RegistryObject<Block> STRIPPED_OAK_LOG = REGISTRY.register("stripped_oak_log", () -> new StrippedOakLogBlock());
+	public static final RegistryObject<Block> STRIPPED_OAK_WOOD = REGISTRY.register("stripped_oak_wood", () -> new StrippedOakWoodBlock());
+	public static final RegistryObject<Block> OAK_PLANKS = REGISTRY.register("oak_planks", () -> new OakPlanksBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
