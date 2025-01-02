@@ -244,16 +244,18 @@
   "workspaceSettings": {
     "modid": "blocks_of_illusion",
     "modName": "blocks of illusion",
-    "version": "1.0.0",
-    "author": "Ian13, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "0.0.1",
+    "author": "Ian1337",
+    "websiteURL": "dc.paul2craft.de",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
+    "modPicture": "logo_for_minecraft_mod_named_blocks_of_illusion",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "moin",
     "modElementsPackage": "wuzu.ian.blocksofillusion"
   },
   "mcreatorVersion": 202400232117

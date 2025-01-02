@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Not specified"
+license="All Rights Reserved"
 
 [[mods]]
 modId="blocks_of_illusion"
-version="1.0.0"
+version="0.0.1"
 displayName="blocks of illusion"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Ian13, MCreator"
+logoFile="logo.png"
+credits="moin"
+authors="Ian1337"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
