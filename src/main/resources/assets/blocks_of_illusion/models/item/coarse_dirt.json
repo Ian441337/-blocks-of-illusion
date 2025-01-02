@@ -1,5 +1,5 @@
 {
-  "parent": "blocks_of_illusion:block/grassblock",
+  "parent": "blocks_of_illusion:block/coarse_dirt",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -181,18 +181,18 @@
       "path": "~/blocks"
     },
     {
-      "name": "Grassblock",
+      "name": "CoarseDirt",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grassblock",
+      "registry_name": "coarse_dirt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/blocks_of_illusion/models/block/grassblock.json",
-          "src/main/java/wuzu/ian/blocksofillusion/block/GrassblockBlock.java",
-          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/grassblock.json",
-          "src/main/resources/assets/blocks_of_illusion/models/item/grassblock.json",
-          "src/main/resources/assets/blocks_of_illusion/blockstates/grassblock.json"
+          "src/main/resources/assets/blocks_of_illusion/models/block/coarse_dirt.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/coarse_dirt.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/CoarseDirtBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/item/coarse_dirt.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/coarse_dirt.json"
         ]
       },
       "path": "~/blocks"
@@ -212,7 +212,7 @@
       "Andesite",
       "PolishedAndesite",
       "Dirt",
-      "Grassblock",
+      "CoarseDirt",
       "Sand"
     ]
   },
@@ -223,8 +223,8 @@
       "block.blocks_of_illusion.polished_granite": "Polished Granite",
       "block.blocks_of_illusion.dirt": "Dirt",
       "block.blocks_of_illusion.stone": "Stone",
-      "block.blocks_of_illusion.grassblock": "Grassblock",
       "block.blocks_of_illusion.cobblestone": "Cobblestone",
+      "block.blocks_of_illusion.coarse_dirt": "Coarse Dirt",
       "block.blocks_of_illusion.polished_diorite": "Polished Diorite",
       "block.blocks_of_illusion.sand": "Sand",
       "block.blocks_of_illusion.polished_andesite": "Polished Andesite",

@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:dirt",
-    "textureTop": "minecraft:grass_block_top",
-    "textureLeft": "minecraft:grass_block_side",
-    "textureFront": "minecraft:grass_block_side",
-    "textureRight": "minecraft:grass_block_side",
-    "textureBack": "minecraft:grass_block_side",
+    "texture": "minecraft:coarse_dirt",
+    "textureTop": "minecraft:coarse_dirt",
+    "textureLeft": "minecraft:coarse_dirt",
+    "textureFront": "minecraft:coarse_dirt",
+    "textureRight": "minecraft:coarse_dirt",
+    "textureBack": "minecraft:coarse_dirt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "Grass",
+    "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": true,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Grassblock",
+    "name": "Coarse Dirt",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,7 +48,7 @@
     ],
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "Items.ENDER_EYE"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

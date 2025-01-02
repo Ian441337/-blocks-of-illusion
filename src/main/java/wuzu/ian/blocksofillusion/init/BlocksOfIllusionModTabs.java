@@ -28,7 +28,7 @@ public class BlocksOfIllusionModTabs {
 				tabData.accept(BlocksOfIllusionModBlocks.ANDESITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.POLISHED_ANDESITE.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.DIRT.get().asItem());
-				tabData.accept(BlocksOfIllusionModBlocks.GRASSBLOCK.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.COARSE_DIRT.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.SAND.get().asItem());
 			}).withSearchBar().build());
 }

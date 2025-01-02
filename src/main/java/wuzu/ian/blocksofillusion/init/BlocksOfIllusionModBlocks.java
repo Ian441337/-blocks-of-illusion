@@ -9,21 +9,17 @@ import wuzu.ian.blocksofillusion.block.SandBlock;
 import wuzu.ian.blocksofillusion.block.PolishedGraniteBlock;
 import wuzu.ian.blocksofillusion.block.PolishedDioriteBlock;
 import wuzu.ian.blocksofillusion.block.PolishedAndesiteBlock;
-import wuzu.ian.blocksofillusion.block.GrassblockBlock;
 import wuzu.ian.blocksofillusion.block.GraniteBlock;
 import wuzu.ian.blocksofillusion.block.DirtBlock;
 import wuzu.ian.blocksofillusion.block.DioriteBlock;
 import wuzu.ian.blocksofillusion.block.CobblestoneBlock;
+import wuzu.ian.blocksofillusion.block.CoarseDirtBlock;
 import wuzu.ian.blocksofillusion.block.AndesiteBlock;
 import wuzu.ian.blocksofillusion.BlocksOfIllusionMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
@@ -39,15 +35,7 @@ public class BlocksOfIllusionModBlocks {
 	public static final RegistryObject<Block> POLISHED_DIORITE = REGISTRY.register("polished_diorite", () -> new PolishedDioriteBlock());
 	public static final RegistryObject<Block> ANDESITE = REGISTRY.register("andesite", () -> new AndesiteBlock());
 	public static final RegistryObject<Block> POLISHED_ANDESITE = REGISTRY.register("polished_andesite", () -> new PolishedAndesiteBlock());
-	public static final RegistryObject<Block> GRASSBLOCK = REGISTRY.register("grassblock", () -> new GrassblockBlock());
-
+	public static final RegistryObject<Block> COARSE_DIRT = REGISTRY.register("coarse_dirt", () -> new CoarseDirtBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
-	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-	public static class BlocksClientSideHandler {
-		@SubscribeEvent
-		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-			GrassblockBlock.blockColorLoad(event);
-		}
-	}
 }

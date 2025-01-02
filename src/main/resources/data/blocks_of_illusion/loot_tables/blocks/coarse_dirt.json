@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "blocks_of_illusion:blocks/grassblock",
+  "random_sequence": "blocks_of_illusion:blocks/coarse_dirt",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "blocks_of_illusion:grassblock"
+          "name": "minecraft:ender_eye"
         }
       ]
     }
