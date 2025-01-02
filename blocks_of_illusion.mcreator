@@ -330,6 +330,45 @@
         ]
       },
       "path": "~/recepi"
+    },
+    {
+      "name": "Podzolr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podzolr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/podzolr.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "Cobblestoner",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestoner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/cobblestoner.json"
+        ]
+      },
+      "path": "~/recepi"
+    },
+    {
+      "name": "Sandr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/recipes/sandr.json"
+        ]
+      },
+      "path": "~/recepi"
     }
   ],
   "variable_elements": [],
