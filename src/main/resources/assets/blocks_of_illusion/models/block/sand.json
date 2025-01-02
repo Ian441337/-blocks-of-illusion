@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/sand",
+    "up": "minecraft:block/sand",
+    "north": "minecraft:block/sand",
+    "east": "minecraft:block/sand",
+    "south": "minecraft:block/sand",
+    "west": "minecraft:block/sand",
+    "particle": "minecraft:block/sand"
+  },
+  "render_type": "cutout"
+}

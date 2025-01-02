@@ -1,0 +1,260 @@
+{
+  "mod_elements": [
+    {
+      "name": "Blocksofillusion",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocksofillusion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Dirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/blockstates/dirt.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/dirt.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/dirt.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/DirtBlock.java",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/dirt.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Sand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/blockstates/sand.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/SandBlock.java",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/sand.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/sand.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/sand.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Stone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/blocksofillusion/block/StoneBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/block/stone.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/stone.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/stone.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/stone.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Cobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/cobblestone.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/cobblestone.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/CobblestoneBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/cobblestone.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/cobblestone.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Granite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/models/block/granite.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/granite.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/GraniteBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/granite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/granite.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "PolishedGranite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_granite",
+      "metadata": {
+        "files": [
+          "src/main/java/wuzu/ian/blocksofillusion/block/PolishedGraniteBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/block/polished_granite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/polished_granite.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/polished_granite.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/polished_granite.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Diorite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/blockstates/diorite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/diorite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/diorite.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/DioriteBlock.java",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/diorite.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "PolishedDiorite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/polished_diorite.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/PolishedDioriteBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/item/polished_diorite.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/polished_diorite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/polished_diorite.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Andesite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/models/block/andesite.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/andesite.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/andesite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/andesite.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/AndesiteBlock.java"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "PolishedAndesite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/blockstates/polished_andesite.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/PolishedAndesiteBlock.java",
+          "src/main/resources/assets/blocks_of_illusion/models/item/polished_andesite.json",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/polished_andesite.json",
+          "src/main/resources/assets/blocks_of_illusion/models/block/polished_andesite.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "Grassblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocks_of_illusion/models/block/grassblock.json",
+          "src/main/java/wuzu/ian/blocksofillusion/block/GrassblockBlock.java",
+          "src/main/resources/data/blocks_of_illusion/loot_tables/blocks/grassblock.json",
+          "src/main/resources/assets/blocks_of_illusion/models/item/grassblock.json",
+          "src/main/resources/assets/blocks_of_illusion/blockstates/grassblock.json"
+        ]
+      },
+      "path": "~/blocks"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {
+    "CUSTOM:Blocksofillusion": [
+      "Stone",
+      "Cobblestone",
+      "Granite",
+      "PolishedGranite",
+      "Diorite",
+      "PolishedDiorite",
+      "Andesite",
+      "PolishedAndesite",
+      "Dirt",
+      "Grassblock",
+      "Sand"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.blocks_of_illusion.diorite": "Diorite",
+      "item_group.blocks_of_illusion.blocksofillusion": "Blocks of illusion",
+      "block.blocks_of_illusion.polished_granite": "Polished Granite",
+      "block.blocks_of_illusion.dirt": "Dirt",
+      "block.blocks_of_illusion.stone": "Stone",
+      "block.blocks_of_illusion.grassblock": "Grassblock",
+      "block.blocks_of_illusion.cobblestone": "Cobblestone",
+      "block.blocks_of_illusion.polished_diorite": "Polished Diorite",
+      "block.blocks_of_illusion.sand": "Sand",
+      "block.blocks_of_illusion.polished_andesite": "Polished Andesite",
+      "block.blocks_of_illusion.granite": "Granite",
+      "block.blocks_of_illusion.andesite": "Andesite"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "blocks_of_illusion",
+    "modName": "blocks of illusion",
+    "version": "1.0.0",
+    "author": "Ian13, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "wuzu.ian.blocksofillusion"
+  },
+  "mcreatorVersion": 202400232117
+}
