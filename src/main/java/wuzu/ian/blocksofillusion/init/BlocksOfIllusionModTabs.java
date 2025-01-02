@@ -39,5 +39,7 @@ public class BlocksOfIllusionModTabs {
 				tabData.accept(BlocksOfIllusionModBlocks.SPRUCE_LOG.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.SPRUCE_WOOD.get().asItem());
 				tabData.accept(BlocksOfIllusionModBlocks.STRIPPED_SPRUCE_LOG.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.STRIPPED_SPRUCE_WOOD.get().asItem());
+				tabData.accept(BlocksOfIllusionModBlocks.SPRUCE_PLANKS.get().asItem());
 			}).withSearchBar().build());
 }
